@@ -56,4 +56,4 @@ class DbHelper {
   }
 }
 
-export default new DbHelper('cps-svg.sqlite3')
+export default new DbHelper('ps-svg.sqlite3')

@@ -29,6 +29,5 @@ export default async ctx => {
       label: fileName.split('.')[1]
       // path: `/svgs/${theme}/${fileName}`,
     }))
-
   ctx.body = names
 }

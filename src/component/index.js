@@ -24,5 +24,5 @@ export default async ctx => {
     addUsed(`${theme}.${type}`)
   }
 
-  ctx.body = `<i aria-label="图标: ${type}" ${format !== 'html' ? 'className' : 'class'}="anticon">${data}</i>`
+  ctx.body = `<i aria-label="图标: ${type}" ${format !== 'html' ? 'className' : 'class'}="ps-icon">${data}</i>`
 }
